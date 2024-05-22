@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/bottom_btn1"
+        android:title="Home"
+        app:backgroundColor="@color/orange"
+        app:cnb_iconColor="@color/navy_blue" />
+
+    <item
+        android:id="@+id/Board"
+        android:icon="@drawable/bottom_btn2"
+        android:title="Board"
+        app:backgroundColor="@color/orange"
+        app:cnb_iconColor="@color/navy_blue" />
+
+    <item
+        android:id="@+id/Score"
+        android:icon="@drawable/bottom_btn3"
+        android:title="Score"
+        app:backgroundColor="@color/orange"
+        app:cnb_iconColor="@color/navy_blue" />
+
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/bottom_btn4"
+        android:title="Profile"
+        app:backgroundColor="@color/orange"
+        app:cnb_iconColor="@color/navy_blue" />
+
+</menu>
+

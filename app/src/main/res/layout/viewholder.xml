@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_68sdp"
+    android:layout_margin="@dimen/_8sdp"
+    android:background="@drawable/white_background"
+    android:elevation="@dimen/_3sdp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/rawTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:text="0" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/pic"
+        android:layout_width="@dimen/_52sdp"
+        android:layout_height="@dimen/_52sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:padding="@dimen/_2sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:shapeAppearanceOverlay="@style/circleImageview"
+        app:strokeColor="@color/BROWN"
+        app:strokeWidth="@dimen/_2sdp" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/scoreCoinImg"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:src="@drawable/garnet" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_2sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:text="00000"
+        android:textColor="@color/navy_blue" />
+</LinearLayout>
